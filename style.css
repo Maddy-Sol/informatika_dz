@@ -1,0 +1,121 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+    margin: 0;
+    color: #212121;
+    font-size: 24px;
+}
+
+.logo-blue{
+    color: #2196f3;
+}
+
+.logo-container{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Header-img.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text{
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+}
+
+
+.game-first > img{
+    width: 100%;
+    display:block;
+    height: 294px;
+    object-fit: cover;
+}
+
+.game-first{
+    width: 625px;
+    display: inline-block;
+    border: 3px solid #EEEEEE;
+    margin-right: 174px;
+}
+
+.game-second > img{
+    width: 100%;
+    display:block;
+    height: 294px;
+    object-fit: cover;
+}
+
+.game-second{
+    width: 625px;
+    display: block;
+    border: 3px solid #EEEEEE;
+    display: inline-block;
+}
+
+.game-content{
+    margin: 0 36px;
+}
+
+.game-title{
+    color: #2196f3;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+
+.game-third > img{
+    width: 100%;
+    display:block;
+    height: 294px;
+    object-fit: cover;
+}
+
+.game-third{
+    width: 625px;
+    display: block;
+    border: 3px solid #EEEEEE;
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 174px;
+}
+
+.game-fourth > img{
+    width: 100%;
+    display:block;
+    height: 294px;
+    object-fit: cover;
+}
+
+.game-fourth{
+    width: 625px;
+    display: block;
+    border: 3px solid #EEEEEE;
+    display: inline-block;
+}
